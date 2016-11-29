@@ -40,8 +40,8 @@ cars(make, model) # calls function cars with the arguments: make and model
 # Print "FizzBuzz" for numbers that are multiples of both 3 and 5.
 
 
-def fizz(number)				# creates fizz function had number argument
-	for	i in 1..number			# for loop i is the current value runs from 1 to 100 the agrument
+def fizz()				# creates fizz function
+	for	i in 1..100			# for loop i is the current value runs from 1 to 100 the agrument
     if i % 5 == 0 and i % 3 == 0  # if the current number is both divisible by 3
         puts "FizzBuzz"			# prints FizzBuzz
       elsif i % 5 == 0			# else if the current number is divisible by 5
@@ -53,7 +53,7 @@ def fizz(number)				# creates fizz function had number argument
       end						# ends if
     end						# ends 
   end						# ends function fizz
-fizz(100)					# calls fizz, sets number argument to 100
+fizz					# calls fizz
  
 
 
